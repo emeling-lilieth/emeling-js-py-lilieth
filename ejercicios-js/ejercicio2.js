@@ -1,13 +1,9 @@
-function checkEvenOdd(number) {
-    if (number % 2 === 0) {
-        return '✅';
-    } else {
-        return '❌';
-    }
-}
-
+console.log ("ejercicio 2: verificador de par/impar")
 // Generar un número aleatorio entre 1 y 100
-let number = Math.floor(Math.random() * 100) + 1;
+const numero = Math.floor(Math.random() * 100) + 1;
 
-let result = checkEvenOdd(number);
-console.log('El número ${number} es ${result}.');
+// Verificar si es par o impar
+const resultado = (numero % 2 === 0) ? "par" : "impar";
+
+// Mostrar el resultado
+('El número generado es ${numero} y es ${resultado}.') ;
