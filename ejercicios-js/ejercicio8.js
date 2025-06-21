@@ -1,4 +1,4 @@
-
+console.log ("ejercicio 8: sumatoria de array")
 function sumArray(numeros) {
     return numeros.reduce((acumulador, numero) => acumulador + numero, 0);
 }
